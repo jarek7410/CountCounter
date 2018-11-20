@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Court Counter</string>
-    <string name="memory">ilość cofnięć:</string>
+    <string name="teamA">team A</string>
+    <string name="teamB">team B</string>
+    <string name="Points3">+3 Points</string>
+    <string name="Points2">+2 Points</string>
+    <string name="Points1">free Throw</string>
+    <string name="undo">undo</string>
+    <string name="reset">reset</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="Setting_memory">ilość cofnięć: </string>
+
+
 </resources>

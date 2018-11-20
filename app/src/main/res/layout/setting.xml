@@ -13,21 +13,22 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         >
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/memory" />
+                android:text="@string/Setting_memory" />
 
             <TextView
-                android:id="@+id/editText2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="50"/>
@@ -36,7 +37,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -47,7 +49,15 @@
                 android:layout_height="wrap_content"
                 android:text="0"/>
         </LinearLayout>
-
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="koloruystyka: orange"/>
+        </LinearLayout>
     </LinearLayout>
 <Button
     android:layout_width="wrap_content"

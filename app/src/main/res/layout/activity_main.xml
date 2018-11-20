@@ -25,7 +25,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="team A"
+                    android:text="@string/teamA"
                     android:textSize="14sp"
                     android:textColor="#616161"
                     android:fontFamily="sans-serif-medium"
@@ -47,7 +47,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="points3A"
-                    android:text="+3 Points"
+                    android:text="@string/Points3"
                     android:layout_marginTop="8dp"
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"/>
@@ -56,7 +56,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="points2A"
-                    android:text="+2 Points"
+                    android:text="@string/Points2"
                     android:layout_marginTop="8dp"
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp" />
@@ -65,7 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="points1A"
-                    android:text="free Throw"
+                    android:text="@string/Points1"
                     android:layout_marginTop="8dp"
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp" />
@@ -85,7 +85,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="team B"
+                    android:text="@string/teamB"
                     android:textSize="14sp"
                     android:textColor="#616161"
                     android:fontFamily="sans-serif-medium"
@@ -107,7 +107,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="points3B"
-                    android:text="+3 Points"
+                    android:text="@string/Points3"
                     android:layout_marginTop="8dp"
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"/>
@@ -116,7 +116,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="points2B"
-                    android:text="+2 Points"
+                    android:text="@string/Points2"
                     android:layout_marginTop="8dp"
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"/>
@@ -125,7 +125,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="points1B"
-                    android:text="free Throw"
+                    android:text="@string/Points1"
                     android:layout_marginTop="8dp"
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"/>
@@ -135,7 +135,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cofnij"
+            android:text="@string/undo"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="64dp"
@@ -147,7 +147,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:gravity="center_horizontal"
-            android:text="reset"
+            android:text="@string/reset"
             android:onClick="reset"
             android:layout_marginBottom="8dp" />
     </RelativeLayout>
