@@ -1,4 +1,4 @@
-package com.example.jarek.courtcounter;
+package com.pl.jarek.courtcounter;
 
 import org.junit.Test;
 

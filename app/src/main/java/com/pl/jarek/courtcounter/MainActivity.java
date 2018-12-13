@@ -1,4 +1,4 @@
-package com.example.jarek.courtcounter;
+package com.pl.jarek.courtcounter;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.jarek.courtcounter.BuildConfig;
+import com.example.jarek.courtcounter.R;
 
 public class MainActivity extends AppCompatActivity {
 

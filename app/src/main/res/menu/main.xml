@@ -5,8 +5,7 @@
     <group>
         <item
             android:id="@+id/action_settings"
-            android:title="ustawienia">
+            android:title="@string/title_activity_settings" />
 
-        </item>
     </group>
 </menu>
